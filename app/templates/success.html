@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Success
+    {{super()}}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Login Success</h1>
+    </div>
+    <div class="container">
+        <h4>Private key:</h4>
+        <p class="text-justify text-break">{{prkey}}</p>
+        <h4>Public key:</h4>
+        <p class="text-justify text-break">{{pukey}}</p>
+    </div>
+{% endblock content %}
+
