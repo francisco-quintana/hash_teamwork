@@ -1,3 +1,5 @@
 venv/
 dbconfig.py
 __pycache__/
+hash.py
+keys.py

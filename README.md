@@ -13,11 +13,11 @@
    export FLASK_DEBUG=1;
    export FLASK_ENV=development
    
-3.5 Windows:
+4. Windows:
    set FLASK_APP=main.py;
    set FLASK_DEBUG=1;
    set FLASK_ENV=development
    
-4. pip3 -r install requirements.txt
+5. pip3 -r install requirements.txt
 
-5. flask run
+6. flask run
