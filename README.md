@@ -18,6 +18,6 @@
    set FLASK_DEBUG=1;
    set FLASK_ENV=development
    
-5. pip3 -r install requirements.txt
+5. pip3 install -r requirements.txt
 
 6. flask run
