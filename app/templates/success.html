@@ -6,14 +6,26 @@
 {% endblock %}
 
 {% block content %}
+<div class="container fondo">
     <div class="container">
         <h1>Login Success</h1>
     </div>
+    <div class="container mt-5">
+        <a href="{{url_for('signin')}}"
+           class= "btn btn-danger btn-m active"
+           role="button" aria-pressed="True"
+           >Logout</a>
+    </div>
     <div class="container">
         <h4>Private key:</h4>
-        <p class="text-justify text-break">{{prkey}}</p>
+        <textarea class="text-justify text-break" style="width:90%; height:30%; word-wrap:break-word;">{{prkey}}</textarea>
         <h4>Public key:</h4>
-        <p class="text-justify text-break">{{pukey}}</p>
+        <textarea class="text-justify text-break" style="width:90%; height:30%; word-wrap:break-word;">{{pukey}}</textarea>
     </div>
+    
+
+    </div>
+</div>
+
 {% endblock content %}
 

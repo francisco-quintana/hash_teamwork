@@ -1,15 +1,27 @@
-*{
-    background-color: blue;
-}
+
 h1 {
-    color: #FCA205;
+    color:white;
     font-family: 'Lobster';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px black;
+    
+}
+h3 {
+    color:rgb(255, 255, 255);
+    font-family: 'Lobster';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px #000000a9;
 }
 
-.container{
-    background-color:purple;  
 
+.fondo{
+    background-color:rgba(0, 0, 0, 0.459);  
+    padding:5%;
 }
 html{
-    background-color:rgb(128, 0, 0);  
+    background-color: rgb(71, 70, 70);
 }

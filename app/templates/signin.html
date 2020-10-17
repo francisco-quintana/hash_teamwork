@@ -7,18 +7,18 @@
 {% endblock title %}
 
 {% block content %}
-<div style="background-color:purple">
-    <div class="container" >
+<div class="container fondo">
+    <div>
         <h1>{{title}}</h1>
         {{wtf.quick_form(data_form)}}
     </div>
-    <div class="container mt-5" style='margin-top: 25px;'>
+    <div class="container mt-5" >
         <h3>Don't have an account?</h3>
         <a href="{{url_for('signup')}}"
-           class= "btn btn-success btn-m active"
+           class= "btn btn-info btn-m active"
            role="button" aria-pressed="True"
            >Sign Up</a>
 
     </div>
 </div>
-{% endblock content %}
+{% endblock content %}                  
